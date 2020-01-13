@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D599652B1BFDA007D90357BCF43020C /* Pods-FirestoreApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A0627FA17FBC3BE10A589D91B8284 /* Pods-FirestoreApp-dummy.m */; };
+		13B21EC0B2C2E1C5327E627523296B00 /* Pods-FirestoreAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C632D79BB72D9AE63AA31ABDD642DF /* Pods-FirestoreAppTests-dummy.m */; };
+		1BAD804F608DBF06CF732AC33A984AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4CFC42C140D8B9F216EA0D23EF13A838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7288A38EED224403890AA33B178AF7CA /* Pods-FirestoreApp-FirestoreAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0813D3FC661689A825F42C407D45BC /* Pods-FirestoreApp-FirestoreAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0EF47F285B02AC7CC0424982C7627FC /* Pods-FirestoreApp-FirestoreAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EBBAD018EA0697F6FF722BC2A0F276 /* Pods-FirestoreApp-FirestoreAppUITests-dummy.m */; };
+		BD1811DADEB4538823DF0065BA1C8380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E17D0C48D733543D23EE6FEDA70C5403 /* Pods-FirestoreAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7939C6C31CCE501BCAA5AEF6388F63AC /* Pods-FirestoreAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB59B974EDBB5462726BD829C9209040 /* Pods-FirestoreApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41022B64554326F6F545FC6C3FBBEB31 /* Pods-FirestoreApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784AA6227A859B9B466709929EC776E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC3A30DDACFF236A1881671448D4FCF;
+			remoteInfo = "Pods-FirestoreApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11E7E5A8AE71ADE24FAA3F1D5EE66055 /* Pods-FirestoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirestoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		150B2EE01F1C096AEA7320AE1320F9A8 /* Pods_FirestoreApp_FirestoreAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FirestoreApp_FirestoreAppUITests.framework; path = "Pods-FirestoreApp-FirestoreAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21981281A23020AB7E3C3FB7B382FFE7 /* Pods-FirestoreApp-FirestoreAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FirestoreApp-FirestoreAppUITests.modulemap"; sourceTree = "<group>"; };
+		31F0366F91A35917B0FCAEB6F0945522 /* Pods-FirestoreApp-FirestoreAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirestoreApp-FirestoreAppUITests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A22143C5B4AE0BCC7E0AEDD0ABD0FBC /* Pods-FirestoreApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirestoreApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		41022B64554326F6F545FC6C3FBBEB31 /* Pods-FirestoreApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FirestoreApp-umbrella.h"; sourceTree = "<group>"; };
+		4A5F8A2A81FFDCDCBBAC11DAF164B9F1 /* Pods-FirestoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirestoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4ACF28B0E3D7C471E25B8B938B7A817F /* Pods-FirestoreApp-FirestoreAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirestoreApp-FirestoreAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C0813D3FC661689A825F42C407D45BC /* Pods-FirestoreApp-FirestoreAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FirestoreApp-FirestoreAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		5DEDAF8AFC6504AAA7543C57621CC721 /* Pods-FirestoreAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FirestoreAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75BC935764D103C76120F24B373FDFCD /* Pods-FirestoreAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirestoreAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7939C6C31CCE501BCAA5AEF6388F63AC /* Pods-FirestoreAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FirestoreAppTests-umbrella.h"; sourceTree = "<group>"; };
+		86F58E411032EC305D1E2515780D9DE9 /* Pods_FirestoreApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FirestoreApp.framework; path = "Pods-FirestoreApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C632D79BB72D9AE63AA31ABDD642DF /* Pods-FirestoreAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FirestoreAppTests-dummy.m"; sourceTree = "<group>"; };
+		8B8A0627FA17FBC3BE10A589D91B8284 /* Pods-FirestoreApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FirestoreApp-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0371CC2FCD40243C48FC5298377F3B3 /* Pods-FirestoreApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FirestoreApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB85CDCC01312696BD6F89D125976CE7 /* Pods-FirestoreAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FirestoreAppTests.modulemap"; sourceTree = "<group>"; };
+		ABCB6D3478138F2D0331606886A16BB1 /* Pods_FirestoreAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FirestoreAppTests.framework; path = "Pods-FirestoreAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC46B15E3B2C46E408348F56DE78AAFC /* Pods-FirestoreApp-FirestoreAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirestoreApp-FirestoreAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D26C2565FC4E215732D105ECA8C38B9E /* Pods-FirestoreApp-FirestoreAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FirestoreApp-FirestoreAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4EBBAD018EA0697F6FF722BC2A0F276 /* Pods-FirestoreApp-FirestoreAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FirestoreApp-FirestoreAppUITests-dummy.m"; sourceTree = "<group>"; };
+		DC58AC88195308349FDAB1485A5A0562 /* Pods-FirestoreApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirestoreApp-Info.plist"; sourceTree = "<group>"; };
+		E94DA81A2316842DCB5767B5481F664E /* Pods-FirestoreAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FirestoreAppTests-Info.plist"; sourceTree = "<group>"; };
+		EB2B0EFF6B1BA7A9D7C374CCA8AE2590 /* Pods-FirestoreApp-FirestoreAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirestoreApp-FirestoreAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDD87BBADB0A4B2883653B2FA764EAAB /* Pods-FirestoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirestoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEF134928743F8E30F631F77F9EF2E1A /* Pods-FirestoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FirestoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		F0E086B29672FC7587232BB1349F8FFD /* Pods-FirestoreApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FirestoreApp.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7033797B02443F086EAF307FF299EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CFC42C140D8B9F216EA0D23EF13A838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D75B4703AA2D139B426E14C35406B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAD804F608DBF06CF732AC33A984AB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A2B9484663F3FE07DF1BFC8A6AA0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1811DADEB4538823DF0065BA1C8380 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A172AB15E6F8A0DD740067453F996F2 /* Pods-FirestoreAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB85CDCC01312696BD6F89D125976CE7 /* Pods-FirestoreAppTests.modulemap */,
+				5DEDAF8AFC6504AAA7543C57621CC721 /* Pods-FirestoreAppTests-acknowledgements.markdown */,
+				75BC935764D103C76120F24B373FDFCD /* Pods-FirestoreAppTests-acknowledgements.plist */,
+				88C632D79BB72D9AE63AA31ABDD642DF /* Pods-FirestoreAppTests-dummy.m */,
+				E94DA81A2316842DCB5767B5481F664E /* Pods-FirestoreAppTests-Info.plist */,
+				7939C6C31CCE501BCAA5AEF6388F63AC /* Pods-FirestoreAppTests-umbrella.h */,
+				11E7E5A8AE71ADE24FAA3F1D5EE66055 /* Pods-FirestoreAppTests.debug.xcconfig */,
+				EDD87BBADB0A4B2883653B2FA764EAAB /* Pods-FirestoreAppTests.release.xcconfig */,
+			);
+			name = "Pods-FirestoreAppTests";
+			path = "Target Support Files/Pods-FirestoreAppTests";
+			sourceTree = "<group>";
+		};
+		5933398C22C236BE8B7F5F5BF89664A4 /* Pods-FirestoreApp-FirestoreAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21981281A23020AB7E3C3FB7B382FFE7 /* Pods-FirestoreApp-FirestoreAppUITests.modulemap */,
+				D26C2565FC4E215732D105ECA8C38B9E /* Pods-FirestoreApp-FirestoreAppUITests-acknowledgements.markdown */,
+				CC46B15E3B2C46E408348F56DE78AAFC /* Pods-FirestoreApp-FirestoreAppUITests-acknowledgements.plist */,
+				D4EBBAD018EA0697F6FF722BC2A0F276 /* Pods-FirestoreApp-FirestoreAppUITests-dummy.m */,
+				31F0366F91A35917B0FCAEB6F0945522 /* Pods-FirestoreApp-FirestoreAppUITests-Info.plist */,
+				4C0813D3FC661689A825F42C407D45BC /* Pods-FirestoreApp-FirestoreAppUITests-umbrella.h */,
+				4ACF28B0E3D7C471E25B8B938B7A817F /* Pods-FirestoreApp-FirestoreAppUITests.debug.xcconfig */,
+				EB2B0EFF6B1BA7A9D7C374CCA8AE2590 /* Pods-FirestoreApp-FirestoreAppUITests.release.xcconfig */,
+			);
+			name = "Pods-FirestoreApp-FirestoreAppUITests";
+			path = "Target Support Files/Pods-FirestoreApp-FirestoreAppUITests";
+			sourceTree = "<group>";
+		};
+		A19439F86239EC096ECF98EBF71ED22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F58E411032EC305D1E2515780D9DE9 /* Pods_FirestoreApp.framework */,
+				150B2EE01F1C096AEA7320AE1320F9A8 /* Pods_FirestoreApp_FirestoreAppUITests.framework */,
+				ABCB6D3478138F2D0331606886A16BB1 /* Pods_FirestoreAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE8E6486EC0674DEA748D1268BCE8FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C89C73211CB57145267EF420C48D9C /* Pods-FirestoreApp */,
+				5933398C22C236BE8B7F5F5BF89664A4 /* Pods-FirestoreApp-FirestoreAppUITests */,
+				3A172AB15E6F8A0DD740067453F996F2 /* Pods-FirestoreAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A19439F86239EC096ECF98EBF71ED22C /* Products */,
+				ACE8E6486EC0674DEA748D1268BCE8FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C89C73211CB57145267EF420C48D9C /* Pods-FirestoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				F0E086B29672FC7587232BB1349F8FFD /* Pods-FirestoreApp.modulemap */,
+				A0371CC2FCD40243C48FC5298377F3B3 /* Pods-FirestoreApp-acknowledgements.markdown */,
+				3A22143C5B4AE0BCC7E0AEDD0ABD0FBC /* Pods-FirestoreApp-acknowledgements.plist */,
+				8B8A0627FA17FBC3BE10A589D91B8284 /* Pods-FirestoreApp-dummy.m */,
+				DC58AC88195308349FDAB1485A5A0562 /* Pods-FirestoreApp-Info.plist */,
+				41022B64554326F6F545FC6C3FBBEB31 /* Pods-FirestoreApp-umbrella.h */,
+				4A5F8A2A81FFDCDCBBAC11DAF164B9F1 /* Pods-FirestoreApp.debug.xcconfig */,
+				EEF134928743F8E30F631F77F9EF2E1A /* Pods-FirestoreApp.release.xcconfig */,
+			);
+			name = "Pods-FirestoreApp";
+			path = "Target Support Files/Pods-FirestoreApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94F89816100BA507CEB9D52C359B0A89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59B974EDBB5462726BD829C9209040 /* Pods-FirestoreApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A739DCC8772928768D1DFBFC64D98763 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7288A38EED224403890AA33B178AF7CA /* Pods-FirestoreApp-FirestoreAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E090678FF90E9E0FC0797E417A3FE7A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17D0C48D733543D23EE6FEDA70C5403 /* Pods-FirestoreAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		662D61EDC12299E0443C3735BA7A7BB8 /* Pods-FirestoreAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABE90AD9485B8B718CB8DE97ECC1A3D /* Build configuration list for PBXNativeTarget "Pods-FirestoreAppTests" */;
+			buildPhases = (
+				E090678FF90E9E0FC0797E417A3FE7A1 /* Headers */,
+				E3CD7064EE026DEB33C48DF398AAC17C /* Sources */,
+				C8A2B9484663F3FE07DF1BFC8A6AA0A3 /* Frameworks */,
+				FDAD0D90466686808DC318B4FF020DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E9AD0B33EAABE9CF28DB2BCAEC0742 /* PBXTargetDependency */,
+			);
+			name = "Pods-FirestoreAppTests";
+			productName = "Pods-FirestoreAppTests";
+			productReference = ABCB6D3478138F2D0331606886A16BB1 /* Pods_FirestoreAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		920608D6E236FF4EA73F1A9BF4E56142 /* Pods-FirestoreApp-FirestoreAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A246F9E5BEBBBBEFB83CCBDB45DC731C /* Build configuration list for PBXNativeTarget "Pods-FirestoreApp-FirestoreAppUITests" */;
+			buildPhases = (
+				A739DCC8772928768D1DFBFC64D98763 /* Headers */,
+				1B165F2E05D341EF132B0228929BBABB /* Sources */,
+				4D75B4703AA2D139B426E14C35406B1F /* Frameworks */,
+				966A865F356C05EFE2541044FDCF5538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FirestoreApp-FirestoreAppUITests";
+			productName = "Pods-FirestoreApp-FirestoreAppUITests";
+			productReference = 150B2EE01F1C096AEA7320AE1320F9A8 /* Pods_FirestoreApp_FirestoreAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCC3A30DDACFF236A1881671448D4FCF /* Pods-FirestoreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893F88E6FE32000A19B9EE7DC7B82DE0 /* Build configuration list for PBXNativeTarget "Pods-FirestoreApp" */;
+			buildPhases = (
+				94F89816100BA507CEB9D52C359B0A89 /* Headers */,
+				E06799846D01C0339FAEE3368CB7987B /* Sources */,
+				1D7033797B02443F086EAF307FF299EA /* Frameworks */,
+				2B7B91B1C598D617EAF53932C585E7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FirestoreApp";
+			productName = "Pods-FirestoreApp";
+			productReference = 86F58E411032EC305D1E2515780D9DE9 /* Pods_FirestoreApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A19439F86239EC096ECF98EBF71ED22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC3A30DDACFF236A1881671448D4FCF /* Pods-FirestoreApp */,
+				920608D6E236FF4EA73F1A9BF4E56142 /* Pods-FirestoreApp-FirestoreAppUITests */,
+				662D61EDC12299E0443C3735BA7A7BB8 /* Pods-FirestoreAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B7B91B1C598D617EAF53932C585E7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A865F356C05EFE2541044FDCF5538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD0D90466686808DC318B4FF020DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B165F2E05D341EF132B0228929BBABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0EF47F285B02AC7CC0424982C7627FC /* Pods-FirestoreApp-FirestoreAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06799846D01C0339FAEE3368CB7987B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D599652B1BFDA007D90357BCF43020C /* Pods-FirestoreApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD7064EE026DEB33C48DF398AAC17C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B21EC0B2C2E1C5327E627523296B00 /* Pods-FirestoreAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16E9AD0B33EAABE9CF28DB2BCAEC0742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FirestoreApp";
+			target = FCC3A30DDACFF236A1881671448D4FCF /* Pods-FirestoreApp */;
+			targetProxy = 784AA6227A859B9B466709929EC776E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		706089D863A0974B75623583C431519E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E7E5A8AE71ADE24FAA3F1D5EE66055 /* Pods-FirestoreAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FirestoreAppTests/Pods-FirestoreAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirestoreAppTests/Pods-FirestoreAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		969F735794253F1B568FC618AB6EEDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACF28B0E3D7C471E25B8B938B7A817F /* Pods-FirestoreApp-FirestoreAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FirestoreApp-FirestoreAppUITests/Pods-FirestoreApp-FirestoreAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirestoreApp-FirestoreAppUITests/Pods-FirestoreApp-FirestoreAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B1F36390E6F1E17DF4B66C5B3810E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5F8A2A81FFDCDCBBAC11DAF164B9F1 /* Pods-FirestoreApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FirestoreApp/Pods-FirestoreApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirestoreApp/Pods-FirestoreApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9ED274A0D96F2253DACF4A6FE2A79E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2B0EFF6B1BA7A9D7C374CCA8AE2590 /* Pods-FirestoreApp-FirestoreAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FirestoreApp-FirestoreAppUITests/Pods-FirestoreApp-FirestoreAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirestoreApp-FirestoreAppUITests/Pods-FirestoreApp-FirestoreAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8B83DBCF498F9AA60A09EA0EC09B6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD87BBADB0A4B2883653B2FA764EAAB /* Pods-FirestoreAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FirestoreAppTests/Pods-FirestoreAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirestoreAppTests/Pods-FirestoreAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E74EAB54320609AE28BF330DB2607B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEF134928743F8E30F631F77F9EF2E1A /* Pods-FirestoreApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FirestoreApp/Pods-FirestoreApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FirestoreApp/Pods-FirestoreApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893F88E6FE32000A19B9EE7DC7B82DE0 /* Build configuration list for PBXNativeTarget "Pods-FirestoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1F36390E6F1E17DF4B66C5B3810E46 /* Debug */,
+				E74EAB54320609AE28BF330DB2607B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A246F9E5BEBBBBEFB83CCBDB45DC731C /* Build configuration list for PBXNativeTarget "Pods-FirestoreApp-FirestoreAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969F735794253F1B568FC618AB6EEDFE /* Debug */,
+				9ED274A0D96F2253DACF4A6FE2A79E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABE90AD9485B8B718CB8DE97ECC1A3D /* Build configuration list for PBXNativeTarget "Pods-FirestoreAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706089D863A0974B75623583C431519E /* Debug */,
+				C8B83DBCF498F9AA60A09EA0EC09B6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
